@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap%27');
+:root
+{
+  --branco: rgb(235, 231, 231);
+    --oxford: #03254E;
+    --alice: #E7ECEF;
+    --glaucoss: #6E7DAB;
+    --preto: #000000;
+    --lemon: #F7FF58;
+    --brandy: #8A3033;
+}
+@font-face 
+{
+    font-family: MCFfunera;
+    src: url(MCF\ funera.ttf);
+}
+
+body
+{
+    background-color: var(--glaucoss);
+}
+a
+{
+  outline: none; border:none;
+  text-decoration: none; 
+}
+
+*
+{
+  font-family: 'League Spartan';
+  
+  margin:0; padding:0;
+  box-sizing: border-box;
+  /* outline: none; border:none;
+  text-decoration: none; */
+  transition:all .2s linear;
+}
+
+.title
+{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.title h1
+{
+    font-size: 3rem;
+}
+
+header .navbar a
+{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color:var(--preto);
+  background: var(--alice);
+  padding: 3px;
+  border-radius: 3px;
+}
+
+header .navbar a:hover
+{
+  background-color:var(--glaucoss)
+}
+
+.navbar
+{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: var(--oxford);
+}
